@@ -1,6 +1,4 @@
-@snap[span-80]
 # On Deny Capabilities for Safe, Fast Actors
-@snapend
 
 ---
 
