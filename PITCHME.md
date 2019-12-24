@@ -3,17 +3,21 @@
 ---
 
 About sean
+
 Pony core team
 
 ---
 
 What to expect.
+
 Basic introduction to Pony.
+
 Lots of terms.
 
 ---
 
 This is a talk about concurrency.
+
 This is a talk about going fast.
 
 ---
@@ -60,7 +64,9 @@ What is Fast?
 ---
 
 Coordination avoidance.
+
 Avoid contention.
+
 Locks etc.
 
 ---
@@ -84,6 +90,7 @@ A bit of background on capabilities
 ---
 
 Deny capabilities are about access to things, access to data
+
 Statically confirm you aren't doing something unsafe.
 
 ---
@@ -119,6 +126,8 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 ---
 
 Examples...
+
+with errors
 
 ---?color=linear-gradient(100deg, white 90%, #BE5869 10%)
 
