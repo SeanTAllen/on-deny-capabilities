@@ -1,4 +1,4 @@
-# On Deny Capabilities for Safe, Fast Actors
+### On Deny Capabilities for Safe, Fast Actors
 
 ---
 
@@ -120,6 +120,13 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 
 Examples...
 
+---?color=linear-gradient(100deg, white 90%, #BE5869 10%)
+
+```pony
+actor Main
+  new create(env: Env) =>
+    env.out.print("Hello World!")
+```
 
 
 
