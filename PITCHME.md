@@ -1,11 +1,8 @@
 ### On Deny Capabilities for Safe, Fast Actors
 
-Note:
-
-- note test
 ---
 
-Sean T. Allen
+### Sean T. Allen
 
 Member of the Pony core team
 
@@ -13,16 +10,12 @@ Member of the Pony core team
 
 www.seantallen.com
 
-
-
-
 ---
 
 What to expect.
 
-Basic introduction to Pony.
-
-Lots of terms.
+- Basic introduction to Pony.
+- Lots of terminology.
 
 ---
 
