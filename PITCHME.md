@@ -83,8 +83,8 @@ Two memory accesses attempts where both:
 @ulend
 
 @snap[south span-100]
-@[0]Actors are "a synchronization operations")
-@[1](But sending data from one actor to another can cause problems...)
+@[1](Actors are "a synchronization operations")
+@[2](But sending data from one actor to another can cause problems...)
 @snapend
 
 ---
