@@ -124,6 +124,10 @@ Two memory accesses attempts where both:
 
 **Deny capabilities** for **safe**, **fast** actors
 
+note:
+
+we've covered actors. about what makes them safe, and things that can make them slow. let's talk about for a moment about capabilities.
+
 ---
 
 ### Deny capabilities
@@ -132,7 +136,7 @@ doing unsafe fast things safely
 
 note:
 
-talk a bit about object capabilities. reference capabilities. deny certain things.
+share data between actors via message passing without copying
 
 ---
 
