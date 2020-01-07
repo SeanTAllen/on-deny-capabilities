@@ -191,7 +191,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 - ref
 - iso
 - val
-@snap
+@snapend
 
 @snap[north-east span-55 fragment]
 **Mutable**
