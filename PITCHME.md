@@ -29,6 +29,7 @@ Member of the **Pony** core team
 note:
 
 how many people have heard of the actor model?
+
 how many feel like experts?
 
 Erlang. Akka.
@@ -39,18 +40,9 @@ Erlang. Akka.
 
 @ul[spaced]
 - Actors communicate with other actors via messaging
-- Actors process messages
-- Actors "protect resources"
+- Actors process messages @note[sequentially - 1 at a time]
+- Actors "protect resources" @note[tcp connection, file]
 @ulend
-
-note:
-
-protect resource example: tcp connection,
----
-
-Example:
-
-tcp connection
 
 ---
 
