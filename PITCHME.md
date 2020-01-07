@@ -26,13 +26,19 @@ Member of the **Pony** core team
 
 ### Actor model
 
-Perhaps you've heard of erlang.
-Basics:
+note:
+
+perhaps you've heard of erlang. or akka.
+that's good enough.
+
+---
+
+### Actor model basics
 
 @ul[spaced]
-- actors "protect a resource"
-- process messages
-- communicate with other actors via messaging
+- An actor communicates with other actors via messaging
+- An actor processes messages
+- An actor "protects a resource"
 @ulend
 
 ---
