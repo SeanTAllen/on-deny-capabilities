@@ -83,7 +83,7 @@ Two memory accesses attempts where both:
 @ulend
 
 @snap[south span-100]
-@[1](Actors are "a synchronization operations")
+@[1](Actors are "synchronization operations")
 @[2](But sending data from one actor to another can cause problems...)
 @snapend
 
@@ -172,7 +172,7 @@ statically confirm you aren't doing something unsafe
 @snap[south span-100]
 @[2, zoom-14](`msg` and `out` are aliases)
 @[3, zoom-14](`x` is an alias)
-@[4, zoom-14](`x` is aliases when passed to `print`)
+@[4, zoom-14](`x` is aliased when passed to `print`)
 @[1-5]()
 @snapend
 
