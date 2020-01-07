@@ -178,9 +178,9 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 @ul[spaced]
 - Reading
 - Mutating
-- Sharing
 - Sending
 - Aliasing
+- Sharing
 @ulend
 
 ---
@@ -200,13 +200,6 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 - iso
 @snapend
 
-@snap[south-east span-55 fragment]
-**Shareable**
-
-- val
-- tag
-@snapend
-
 @snap[south-west span-55 fragment]
 **Sendable**
 
@@ -223,15 +216,23 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 - tag
 @snapend
 
+@snap[south-east span-55 fragment]
+**Shareable**
+
+- val
+- tag
+@snapend
+
 ---
 
 ### ref
 
 @ul[spaced]
+- **allows** reading
 - **allows** mutation
+- **denies** sending
 - **allows** unlimited aliases
 - **denies** sharing
-- **denies** sending
 @ulend
 
 ---
@@ -239,10 +240,11 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 ### iso
 
 @ul[spaced]
+- **allows** reading
 - **allows** mutation
+- **allows** sending
 - **denies** aliasing
 - **denies** sharing
-- **allows** sending
 @ulend
 
 ---
@@ -250,10 +252,11 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 ### val
 
 @ul[spaced]
+- **allows** reading
 - **denies** mutation
+- **allows** sending
 - **allows** unlimited aliases
 - **allows** sharing
-- **allows** sending
 @ulend
 
 ---
@@ -261,8 +264,8 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 ### tag
 
 @ul[spaced]
-- **denies** mutation
 - **denies** reading
+- **denies** mutation
 - **allows** aliasing
 - **allows** sharing
 - **allows** sending
