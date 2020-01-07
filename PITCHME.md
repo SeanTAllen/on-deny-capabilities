@@ -329,6 +329,10 @@ Pony might change some of its capabilities in the future
 
 ---
 
+example with error
+
+---
+
 More information...
 
 https://www.seantallen.com/talks/deny-capabilities/
