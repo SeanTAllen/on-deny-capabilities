@@ -12,13 +12,6 @@ Member of the **Pony** core team
 
 ---
 
-### What to expect
-
-- Basic introduction to Pony
-- Lots of terminology
-
----
-
 ### This is a talk about concurrency.
 
 ---
@@ -27,11 +20,13 @@ Member of the **Pony** core team
 
 ---
 
-This talk is about Pony and Deny Capabilities.
+### This talk is about Pony and Deny Capabilities.
 
 ---
 
-Actor model. Perhaps you've heard of erlang.
+### Actor model
+
+Perhaps you've heard of erlang.
 Basics:
 
 - actors "protect a resource"
