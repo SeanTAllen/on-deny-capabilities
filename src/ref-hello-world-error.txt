@@ -6,8 +6,9 @@ main.pony:4:19: argument not a subtype of parameter
     main.pony:4:19: argument type is String ref
         env.out.print(msg)
                       ^
-    (...):13:12: parameter type is (String val | Array[U8 val] val)
-      be print(data: ByteSeq)
+    (...):13:12: parameter type is
+      (String val | Array[U8 val] val)
+        be print(data: ByteSeq)
                ^
     main.pony:3:14: String ref is not a subtype of String val:
       ref is not a subcap of val
