@@ -75,7 +75,7 @@ Two memory accesses attempts where both:
 
 ---
 
-#### The actor model doesn't allow for data races
+#### The actor model can help prevent data races
 
 @ul[spaced]
 - All variables are "protected" by an actor - no global variables
@@ -85,6 +85,7 @@ Two memory accesses attempts where both:
 @snap[south span-100 fragment]
 Actors are "a synchronization operations"
 @snapend
+
 ---
 
 ### Fast
