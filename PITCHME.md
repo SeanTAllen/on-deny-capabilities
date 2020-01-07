@@ -235,7 +235,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 @snapend
 @ulend
 
-@snap[south-west span-55 fragment]
+@snap[south-east span-55 fragment]
 **Sendable**
 
 @ul[spaced]
@@ -245,7 +245,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 @ulend
 @snapend
 
-@snap[midpoint span-55 fragment]
+@snap[south-west span-55 fragment]
 **Aliasable**
 
 @ul[spaced]
@@ -255,7 +255,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 @ulend
 @snapend
 
-@snap[south-east span-55 fragment]
+@snap[midpoint span-55 fragment]
 **Shareable**
 
 @ul[spaced]
