@@ -62,7 +62,9 @@ how many folks know the difference between a data race and a race condition?
 
 ---
 
-A data race happens when there are two memory accesses in a program where both:
+### Data race
+
+Two (or more) memory accesses attempts where both:
 
 @ul[spaced]
 - target the same location
