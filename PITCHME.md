@@ -1,4 +1,4 @@
-### On Deny Capabilities for Safe, Fast Actors
+## On Deny Capabilities for Safe, Fast Actors
 
 ---
 
