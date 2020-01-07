@@ -173,21 +173,41 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 
 ---
 
+### What can you deny?
+
+@ul[spaced]
+- Reading
+- Mutating
+- Sharing
+- Sending
+- Aliasing
+@ulend
+
+---
+
 @snap[north-west span-55]
+**Readable**
+
+- ref
+- iso
+- val
+@snap
+
+@snap[north-east span-55 fragment]
 **Mutable**
 
 - ref
 - iso
 @snapend
 
-@snap[north-east span-55 fragments]
+@snap[south-east span-55 fragment]
 **Shareable**
 
 - val
 - tag
 @snapend
 
-@snap[midpoint span-55 fragment]
+@snap[south-west span-55 fragment]
 **Sendable**
 
 - val
@@ -195,11 +215,58 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 - iso
 @snapend
 
-@snap[south span-100]
-@[0](foo)
-@[1](shareable)
-@[2](`x` is an alias)
+@snap[midpoint span-55 fragment]
+**Aliasable**
+
+- ref
+- val
+- tag
 @snapend
+
+---
+
+### ref
+
+@ul[spaced]
+- **allows** mutation
+- **allows** unlimited aliases
+- **denies** sharing
+- **denies** sending
+@ulend
+
+---
+
+### iso
+
+@ul[spaced]
+- **allows** mutation
+- **denies** aliasing
+- **denies** sharing
+- **allows** sending
+@ulend
+
+---
+
+### val
+
+@ul[spaced]
+- **denies** mutation
+- **allows** unlimited aliases
+- **allows** sharing
+- **allows** sending
+@ulend
+
+---
+
+### tag
+
+@ul[spaced]
+- **denies** mutation
+- **denies** reading
+- **allows** aliasing
+- **allows** sharing
+- **allows** sending
+@ulend
 
 ---
 
