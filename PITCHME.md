@@ -329,13 +329,17 @@ Pony might change some of its capabilities in the future
 
 ---
 
+### Code (and errors!)
+
+---
+
 @code[pony](src/ref-hello-world.pony)
 
 @snap[south span-100]
-@[2, zoom-14](create a mutable String)
-@[3, zoom-14](this will send `msg` to actor `out`)
-@[2, zoom-14](`ref` isn't sendable)
-@[3, zoom-14](which will result in an error here)
+@[3, zoom-14](create a mutable String)
+@[4, zoom-14](this will send `msg` to actor `out`)
+@[3, zoom-14](`ref` isn't sendable)
+@[4, zoom-14](which will result in an error here)
 @snapend
 
 ---
