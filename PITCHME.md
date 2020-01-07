@@ -108,27 +108,55 @@ How actors can hurt fast.
 
 ---
 
-Deny capabilities- doing unsafe fast things safely.
+### Deny capabilities
+
+doing unsafe fast things safely.
+
+note:
+
+talk a bit about object capabilities. reference capabilities. deny certain things.
 
 ---
 
-A bit of background on capabilities
-
-<add references to overview>
-
----
-
-Deny capabilities are about access to things, access to data
+Deny capabilities are about safe access to data
 
 Statically confirm you aren't doing something unsafe.
 
 ---
 
-Deny capabilities are about alias control.
+### Deny capabilities are about alias control.
 
 ---
 
-What is an alias?
+### What is an alias?
+
+@ul[spaced]
+- Aliases are "names" for things in memory
+- Aliases allow you to access a thing at a location
+@ulend
+
+---
+
+You create an alias every time...
+
+@ul[spaced]
+- You assign to variable
+- This includes parameter names
+@ulend
+
+---
+
+```pony
+primitive Say
+  fun say(msg: String, out: OutStream) =>
+    let x = "We say '" + msg + "'"
+    out.print(x)
+```
+
+note:
+
+msg is an alias to a String. out is an alias to an OutStream
+x is an alias to a String.
 
 ---
 
