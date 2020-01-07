@@ -149,12 +149,7 @@ Statically confirm you aren't doing something unsafe.
 
 ### Count the aliases
 
-```pony
-primitive Say
-  fun say(msg: String, out: OutStream) =>
-    let x = "We say '" + msg + "'"
-    out.print(x)
-```
+@code[pony](src/say.pony)
 
 @snap[south span-100]
 @[2, zoom-25](`msg` and `out` are aliases]
