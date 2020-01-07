@@ -82,8 +82,8 @@ Two memory accesses attempts where both:
 - Actors are processed sequentially 1 message a time by a single thread
 @ulend
 
-@snap[south span-100 fragment]
-@[0](Actors are "a synchronization operations")
+@snap[south span-100]
+@[0]Actors are "a synchronization operations")
 @[1](But sending data from one actor to another can cause problems...)
 @snapend
 
