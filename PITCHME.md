@@ -174,21 +174,21 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 ---
 
 @snap[north-west span-55]
-Mutable:
+**Mutable**
 
 - ref
 - iso
 @snapend
 
 @snap[east span-50]
-Shareable:
+**Shareable**
 
 - val
 - tag
 @snapend
 
 @snap[south-west span-55]
-Sendable:
+**Sendable**
 
 - val
 - tag
