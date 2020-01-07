@@ -156,8 +156,8 @@ primitive Say
     out.print(x)
 ```
 
-@[1, zoom-3](`msg` and `out` are aliases]
-@[2, zoom-4](`x` is an alias]
+@[2](`msg` and `out` are aliases]
+@[3](`x` is an alias]
 
 ---
 
