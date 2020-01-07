@@ -322,10 +322,10 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 There's no platonic ideal for deny capabilities.
 
 @snap[fragment]
-- Different languages could provide different capabilities
+Different languages could provide different capabilities
 @snapend
 @snap[fragment]
-- Pony might change some of its capabilities in the future
+Pony might change some of its capabilities in the future
 @snapend
 
 ---
