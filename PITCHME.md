@@ -140,6 +140,7 @@ There's no platonic ideal for deny capabilities.
 ---
 
 Let's look at some capabilities.
+
 (there are a couple of others)
 
 @ul[spaced]
