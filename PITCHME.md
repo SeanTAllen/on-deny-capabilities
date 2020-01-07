@@ -137,11 +137,12 @@ Statically confirm you aren't doing something unsafe.
 
 ---
 
-You create an alias every time...
+### Aliases in Pony
 
 @ul[spaced]
-- You assign to variable
-- This includes parameter names
+- When you **assign** a value to a variable or a field.
+- When you **pass** a value as an argument to a method.
+- When you **call a method**, an alias of the receiver of the call is created. It is accessible as this within the method body.
 @ulend
 
 ---
@@ -160,25 +161,6 @@ x is an alias to a String.
 
 ---
 
-### Aliases in Pony
-
-@ul[spaced]
-- When you **assign** a value to a variable or a field.
-- When you **pass** a value as an argument to a method.
-- When you **call a method**, an alias of the receiver of the call is created. It is accessible as this within the method body.
-@ulend
-
----
-
-There's no platonic ideal for deny capabilities.
-
-@ul[spaced]
-- Different languages could provide different capabilities
-- Pony might change some of its capabilities in the future
-@ulend
-
----
-
 Some capabilities:
 
 @ul[spaced]
@@ -191,6 +173,15 @@ Some capabilities:
 ---
 
 I like to map capabilities onto rules that I learned in the 90s when writing lots of multithreaded C++. Those rules helped me keep from segfaulting my code.
+
+---
+
+There's no platonic ideal for deny capabilities.
+
+@ul[spaced]
+- Different languages could provide different capabilities
+- Pony might change some of its capabilities in the future
+@ulend
 
 ---
 
