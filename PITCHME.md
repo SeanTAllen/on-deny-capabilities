@@ -90,7 +90,7 @@ The actor model doesn't allow for data races
 
 ---
 
-How to go fast...
+#### How to go fast
 
 @ul[spaced]
 - Avoid coordination @note[global knowledge, silence is golden, meetings]
