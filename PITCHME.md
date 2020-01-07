@@ -139,11 +139,11 @@ statically confirm you aren't doing something unsafe
 
 ---
 
-### Deny capabilities are about alias control.
+### Alias control
 
 ---
 
-### What is an alias?
+#### What is an alias?
 
 @ul[spaced]
 - Aliases are "names" for things in memory
@@ -152,7 +152,7 @@ statically confirm you aren't doing something unsafe
 
 ---
 
-### Aliases in Pony
+#### Aliases in Pony
 
 @ul[spaced]
 - When you **assign** a value to a variable or a field.
@@ -162,13 +162,28 @@ statically confirm you aren't doing something unsafe
 
 ---
 
-### Count the aliases
+#### Count the aliases
 
 @code[pony](src/say.pony)
 
 @snap[south span-100]
 @[2, zoom-14](`msg` and `out` are aliases)
 @[3, zoom-14](`x` is an alias)
+@snapend
+
+---
+
+### Capabilities
+
+Annotations on code that can be used to statically confirm some property
+
+---
+
+@code[pony](src/capabilities-example.pony)
+
+@snap[south span-100]
+@[3, zoom-14](`val` is a capability)
+@[3, zoom-14](`val` is part of the type at compile-time)
 @snapend
 
 ---
