@@ -46,21 +46,23 @@ Erlang. Akka.
 
 ---
 
+### Safety
+
 What makes for safety?
 
----
+note:
 
-Some stuff on safety
-
----
-
-Actors are great for safety.
-
-In particular, data-races.
+actors are great for safety. in particular data-races
 
 ---
 
-Data race vs race condition
+### Data race
+
+vs race condition
+
+note:
+
+how many folks know the difference between a data race and a race condition?
 
 ---
 
