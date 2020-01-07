@@ -12,15 +12,15 @@ Member of the **Pony** core team
 
 ---
 
-### This is a talk about concurrency.
+This is a talk about **concurrency**.
 
 ---
 
-### This is a talk about going fast.
+This is a talk about **going fast**.
 
 ---
 
-### This talk is about Pony and Deny Capabilities.
+This talk is about **Pony** and **Deny Capabilities**.
 
 ---
 
