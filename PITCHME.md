@@ -82,9 +82,9 @@ Two memory accesses attempts where both:
 - Actors are processed sequentially 1 message a time by a single thread
 @ulend
 
-@span[south span-100 fragment]
+@snap[south span-100 fragment]
 Actors are "a synchronization operations"
-@spanend
+@snapend
 ---
 
 ### Fast
