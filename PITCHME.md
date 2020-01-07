@@ -118,9 +118,10 @@ talk a bit about object capabilities. reference capabilities. deny certain thing
 
 ---
 
-Deny capabilities are about safe access to data
+### Deny capabilities
 
-Statically confirm you aren't doing something unsafe.
+- safe access to data
+- statically confirm you aren't doing something unsafe.
 
 ---
 
