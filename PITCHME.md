@@ -100,11 +100,22 @@ How to go fast...
 
 ---
 
-How actors can help with fast.
+### How actors can help with fast
+
+@ul[spaced]
+- make coordination explicit
+- make contention explicit
+@ulend
 
 ---
 
-How actors can hurt fast.
+### How actors can hurt fast
+
+@ul[spaced]
+- naive implementations can be very slow
+- message queues are points of contention
+- locks are usually faster than a large memory copy
+@ulend
 
 ---
 
