@@ -153,7 +153,7 @@ Statically confirm you aren't doing something unsafe.
 
 @snap[south span-100]
 @[2, zoom-14](`msg` and `out` are aliases]
-@[3, zoom-14](`x` is an alias]
+@[3, zoom-14](x is an alias]
 @snapend
 
 ---
