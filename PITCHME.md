@@ -180,14 +180,14 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 - iso
 @snapend
 
-@snap[north-east span-55]
+@snap[north-east span-55 fragments]
 **Shareable**
 
 - val
 - tag
 @snapend
 
-@snap[midpoint span-55]
+@snap[midpoint span-55 fragment]
 **Sendable**
 
 - val
@@ -195,8 +195,12 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 - iso
 @snapend
 
-@[1](Hello)
-@[2](Bye)
+@snap[south span-100]
+@[0](foo)
+@[1](shareable)
+@[2](`x` is an alias)
+@snapend
+
 ---
 
 There's no platonic ideal for deny capabilities.
