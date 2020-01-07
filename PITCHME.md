@@ -5,9 +5,16 @@ Note:
 - note test
 ---
 
-About sean
+Sean T. Allen
 
-Pony core team
+Member of the Pony core team
+
+@SeanTAllen
+
+www.seantallen.com
+
+
+
 
 ---
 
