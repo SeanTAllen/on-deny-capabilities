@@ -147,6 +147,8 @@ Statically confirm you aren't doing something unsafe.
 
 ---
 
+### Count the aliases
+
 ```pony
 primitive Say
   fun say(msg: String, out: OutStream) =>
@@ -154,9 +156,8 @@ primitive Say
     out.print(x)
 ```
 
-- `msg` is an alias to a String
-- `out` is an alias to an OutStream
-- `x` is an alias to a String
+@[1, zoom-2](`msg` and `out` are aliases]
+@[2, zoom-3](`x` is an alias]
 
 ---
 
