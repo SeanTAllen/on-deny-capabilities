@@ -209,7 +209,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 
 ---
 
-### What can you deny?
+#### What can you deny?
 
 @ul[spaced]
 - Reading
@@ -271,7 +271,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 
 ---
 
-### ref
+#### ref
 
 @ul[spaced]
 - **allows** reading
@@ -283,7 +283,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 
 ---
 
-### iso
+#### iso
 
 @ul[spaced]
 - **allows** reading
@@ -295,7 +295,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 
 ---
 
-### val
+#### val
 
 @ul[spaced]
 - **allows** reading
@@ -307,7 +307,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 
 ---
 
-### tag
+#### tag
 
 @ul[spaced]
 - **denies** reading
