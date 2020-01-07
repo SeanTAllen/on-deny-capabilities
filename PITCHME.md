@@ -12,16 +12,18 @@ Member of the **Pony** core team
 
 ---
 
-What to expect.
+What to expect:
 
-- Basic introduction to Pony.
-- Lots of terminology.
+- Basic introduction to Pony
+- Lots of terminology
 
 ---
 
-This is a talk about concurrency.
+### This is a talk about concurrency.
 
-This is a talk about going fast.
+---
+
+### This is a talk about going fast.
 
 ---
 
