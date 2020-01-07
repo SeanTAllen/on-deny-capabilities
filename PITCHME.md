@@ -190,6 +190,7 @@ Annotations on code that can be used to statically confirm some property
 @[3, zoom-14](`val` is a capability)
 @[3, zoom-14](`val` is part of the type at compile-time)
 @[3, zoom-14](`val` says "the alias `msg` to the String `Hello World` is immutable")
+@[1-10]()
 @snapend
 
 ---
