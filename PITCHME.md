@@ -78,12 +78,13 @@ Two memory accesses attempts where both:
 #### The actor model doesn't allow for data races
 
 @ul[spaced]
-- No global variables
-- All variables are "protected" by an actor
+- All variables are "protected" by an actor - no global variables
 - Actors are processed sequentially 1 message a time by a single thread
-- Actors are a "synchronization operation"
 @ulend
 
+@span[south span-100]
+Actors are "a synchronization operations"
+@spanend
 ---
 
 ### Fast
