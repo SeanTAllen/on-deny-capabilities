@@ -156,8 +156,10 @@ primitive Say
     out.print(x)
 ```
 
-@[2](`msg` and `out` are aliases]
-@[3](`x` is an alias]
+@snap[south span-100]
+@[2, zoom-25](`msg` and `out` are aliases]
+@[3, zoom-25](`x` is an alias]
+@snapend
 
 ---
 
