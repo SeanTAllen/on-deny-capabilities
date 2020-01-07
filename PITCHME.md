@@ -160,6 +160,16 @@ x is an alias to a String.
 
 ---
 
+### Aliases in Pony
+
+@ul[spaced]
+- When you **assign** a value to a variable or a field.
+- When you **pass** a value as an argument to a method.
+- When you **call a method**, an alias of the receiver of the call is created. It is accessible as this within the method body.
+@ulend
+
+---
+
 There's no platonic ideal for deny capabilities.
 
 @ul[spaced]
