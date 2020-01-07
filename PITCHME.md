@@ -194,6 +194,11 @@ actor Main
     env.out.print("Hello World!")
 ```
 
+---
+
+More information...
+
+https://www.seantallen.com/talks/deny-capabilities/
 
 
 
