@@ -180,7 +180,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 - iso
 @snapend
 
-@snap[east span-50]
+@snap[center span-50]
 **Shareable**
 
 - val
