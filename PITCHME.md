@@ -189,7 +189,7 @@ Annotations on code that can be used to statically confirm some property
 
 ---
 
-Some capabilities:
+#### Some capabilities
 
 @ul[spaced]
 - ref @note[plain old mutable)
