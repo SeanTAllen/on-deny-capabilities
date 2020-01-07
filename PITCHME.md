@@ -173,6 +173,30 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 
 ---
 
+@snap[north-west span-55]
+Mutable:
+
+- ref
+- iso
+@snapend
+
+@snap[east span-50]
+Shareable:
+
+- val
+- tag
+@snapend
+
+@snap[south-west span-55]
+Sendable:
+
+- val
+- tag
+- iso
+@snapend
+
+---
+
 There's no platonic ideal for deny capabilities.
 
 @ul[spaced]
