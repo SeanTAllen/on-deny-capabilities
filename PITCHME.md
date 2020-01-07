@@ -119,7 +119,7 @@ The actor model doesn't allow for data races
 
 ---
 
-@snap[zoom-18]**Deny capabilities**@snapend for **safe**, **fast** actors
+**Deny capabilities** for **safe**, **fast** actors
 
 ---
 
