@@ -110,7 +110,7 @@ How actors can hurt fast.
 
 ### Deny capabilities
 
-doing unsafe fast things safely.
+doing unsafe fast things safely
 
 note:
 
@@ -120,7 +120,7 @@ talk a bit about object capabilities. reference capabilities. deny certain thing
 
 ### Deny capabilities
 
-statically confirm you aren't doing something unsafe.
+statically confirm you aren't doing something unsafe
 
 ---
 
