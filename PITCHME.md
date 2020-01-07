@@ -140,6 +140,7 @@ There's no platonic ideal for deny capabilities.
 ---
 
 Let's look at some capabilities.
+(there are a couple of others)
 
 @ul[spaced]
 - ref @note[plain old mutable)
@@ -147,8 +148,6 @@ Let's look at some capabilities.
 - iso @note[only 1 alias]
 - tag @note[only identity]
 @ulend
-
-(there are a couple of others)
 
 ---
 
