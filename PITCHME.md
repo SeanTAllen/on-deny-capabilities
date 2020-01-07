@@ -214,8 +214,8 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 @ul[spaced]
 - Reading
 - Mutating
-- Sending
 - Aliasing
+- Sending
 - Sharing
 @ulend
 
@@ -241,22 +241,22 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 @ulend
 
 @snap[south-east span-55 fragment]
-**Sendable**
-
-@ul[spaced]
-- val
-- tag
-- iso
-@ulend
-@snapend
-
-@snap[south-west span-55 fragment]
 **Aliasable**
 
 @ul[spaced]
 - ref
 - val
 - tag
+@ulend
+@snapend
+
+@snap[south-west span-55 fragment]
+**Sendable**
+
+@ul[spaced]
+- val
+- tag
+- iso
 @ulend
 @snapend
 
