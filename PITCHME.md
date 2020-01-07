@@ -154,10 +154,9 @@ primitive Say
     out.print(x)
 ```
 
-note:
-
-msg is an alias to a String. out is an alias to an OutStream
-x is an alias to a String.
+- `msg` is an alias to a String
+- `out` is an alias to an OutStream
+- `x` is an alias to a String
 
 ---
 
