@@ -46,7 +46,7 @@ Erlang. Akka.
 
 ---
 
-### Safety
+### Safe
 
 note:
 
@@ -86,15 +86,17 @@ The actor model doesn't allow for data races
 
 ---
 
-What is Fast?
+### Fast
 
 ---
 
-Coordination avoidance.
+How to go fast...
 
-Avoid contention.
-
-Locks etc.
+@ul[spaced]
+- Avoid coordination @note[global knowledge, silence is golden, meetings]
+- Avoid contention @note[locks]
+- Measure it @note[you only get what you measure]
+@ulend
 
 ---
 
