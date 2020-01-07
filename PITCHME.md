@@ -54,7 +54,7 @@ actors are great for safety. in particular data-races
 
 ---
 
-### Data race freedom
+#### Data race freedom
 
 note:
 
@@ -62,7 +62,7 @@ how many folks know the difference between a data race and a race condition?
 
 ---
 
-### Data race
+#### Data race
 
 Two memory accesses attempts where both:
 
@@ -75,7 +75,7 @@ Two memory accesses attempts where both:
 
 ---
 
-The actor model doesn't allow for data races
+#### The actor model doesn't allow for data races
 
 @ul[spaced]
 - No global variables
