@@ -221,6 +221,54 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 
 ---
 
+#### ref
+
+@ul[spaced]
+- **allows** reading
+- **allows** mutation
+- **denies** sending
+- **allows** unlimited aliases
+- **denies** sharing
+@ulend
+
+---
+
+#### iso
+
+@ul[spaced]
+- **allows** reading
+- **allows** mutation
+- **allows** sending
+- **denies** aliasing
+- **denies** sharing
+@ulend
+
+---
+
+#### val
+
+@ul[spaced]
+- **allows** reading
+- **denies** mutation
+- **allows** sending
+- **allows** unlimited aliases
+- **allows** sharing
+@ulend
+
+---
+
+#### tag
+
+@ul[spaced]
+- **denies** reading
+- **denies** mutation
+- **allows** aliasing
+- **allows** sharing
+- **allows** sending
+@ulend
+
+---
+
 @snap[north-west span-55]
 **Readable**
 
@@ -267,54 +315,6 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 - val
 - tag
 @snapend
-@ulend
-
----
-
-#### ref
-
-@ul[spaced]
-- **allows** reading
-- **allows** mutation
-- **denies** sending
-- **allows** unlimited aliases
-- **denies** sharing
-@ulend
-
----
-
-#### iso
-
-@ul[spaced]
-- **allows** reading
-- **allows** mutation
-- **allows** sending
-- **denies** aliasing
-- **denies** sharing
-@ulend
-
----
-
-#### val
-
-@ul[spaced]
-- **allows** reading
-- **denies** mutation
-- **allows** sending
-- **allows** unlimited aliases
-- **allows** sharing
-@ulend
-
----
-
-#### tag
-
-@ul[spaced]
-- **denies** reading
-- **denies** mutation
-- **allows** aliasing
-- **allows** sharing
-- **allows** sending
 @ulend
 
 ---
