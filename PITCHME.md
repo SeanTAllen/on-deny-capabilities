@@ -349,7 +349,7 @@ Pony might change some of its capabilities in the future
 @snap[south span-100]
 @[2-3, zoom-14]()
 @[6-7, zoom-14]()
-@[9-10, zoom-14]()
+@[9-11, zoom-14]()
 @snapend
 
 ---
