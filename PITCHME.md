@@ -350,7 +350,25 @@ Pony might change some of its capabilities in the future
 @[2-3, zoom-14](`msg` isn't the correct type)
 @[6-7, zoom-14](`msg` is `String ref`)
 @[9-11, zoom-14](`print` requires `String val` or `Array[U8] val`)
-@[1-1000](We just statically checked data sharing)
+@snapend
+
+---
+
+The compiler just statically checked our data sharing.
+
+@snap[fragment]
+Let's fix it
+@snapend
+
+---
+
+@code[pony](src/hello-world.pony)
+
+@snap[south span-100]
+@[3, zoom-14](`Hello World` String is immutable)
+@[4, zoom-14](send `msg` to actor `out`)
+@[3, zoom-14](`val` is sendable)
+@[4, zoom-14](no error here)
 @snapend
 
 ---
