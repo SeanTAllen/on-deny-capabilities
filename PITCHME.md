@@ -229,32 +229,40 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 @snap[north-east span-55 fragment]
 **Mutable**
 
+@ul[spaced]
 - ref
 - iso
 @snapend
+@ulend
 
 @snap[south-west span-55 fragment]
 **Sendable**
 
+@ul[spaced]
 - val
 - tag
 - iso
+@ulend
 @snapend
 
 @snap[midpoint span-55 fragment]
 **Aliasable**
 
+@ul[spaced]
 - ref
 - val
 - tag
+@ulend
 @snapend
 
 @snap[south-east span-55 fragment]
 **Shareable**
 
+@ul[spaced]
 - val
 - tag
 @snapend
+@ulend
 
 ---
 
