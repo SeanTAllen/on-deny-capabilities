@@ -373,6 +373,6 @@ Let's fix it
 
 ---
 
-More information...
+### Learn more
 
 https://www.seantallen.com/talks/deny-capabilities/
