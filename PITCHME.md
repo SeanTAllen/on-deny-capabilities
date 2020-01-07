@@ -194,6 +194,18 @@ Annotations on code that can be used to statically confirm some property
 
 ---
 
+#### What can you deny?
+
+@ul[spaced]
+- Reading
+- Mutating
+- Aliasing
+- Sending
+- Sharing
+@ulend
+
+---
+
 #### Some capabilities
 
 @ul[spaced]
@@ -206,18 +218,6 @@ Annotations on code that can be used to statically confirm some property
 note:
 
 I like to map capabilities onto rules that I learned in the 90s when writing lots of multithreaded C++. Those rules helped me keep from segfaulting my code.
-
----
-
-#### What can you deny?
-
-@ul[spaced]
-- Reading
-- Mutating
-- Aliasing
-- Sending
-- Sharing
-@ulend
 
 ---
 
