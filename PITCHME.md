@@ -6,9 +6,9 @@
 
 Member of the **Pony** core team
 
-@SeanTAllen
+[@SeanTAllen](https://twitter.com/seantallen)
 
-www.seantallen.com
+[www.seantallen.com](https://www.seantallen.com)
 
 ---
 
