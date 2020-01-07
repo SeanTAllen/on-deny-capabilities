@@ -144,6 +144,8 @@ doing unsafe fast things safely
 
 note:
 
+actors + shared memory
+
 share data between actors via message passing without copying
 
 ---
