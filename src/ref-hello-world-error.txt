@@ -1,0 +1,19 @@
+Error:
+main.pony:4:19: argument not a subtype of parameter
+    env.out.print(msg)
+                  ^
+    Info:
+    main.pony:4:19: argument type is String ref
+        env.out.print(msg)
+                      ^
+    /root/.pony/ponyup/ponyc-release-0.33.1-musl/packages/builtin/std_stream.pony:13:12: parameter type is (String val | Array[U8 val] val)
+      be print(data: ByteSeq)
+               ^
+    main.pony:3:14: String ref is not a subtype of String val: ref is not a subcap of val
+        let msg: String ref = "Hello World!".clone()
+                 ^
+    main.pony:3:14: String ref is not a subtype of Array[U8 val] val
+        let msg: String ref = "Hello World!".clone()
+                 ^
+    main.pony:3:14: String ref is not a subtype of any element of (String val | Array[U8 val] val)
+        let msg: String ref = "Hello World!".clone()
