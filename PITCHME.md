@@ -100,7 +100,7 @@ The actor model doesn't allow for data races
 
 ---
 
-### How actors can help with fast
+#### How actors can help with fast
 
 @ul[spaced]
 - make coordination explicit
@@ -109,7 +109,7 @@ The actor model doesn't allow for data races
 
 ---
 
-### How actors can hurt fast
+#### How actors can hurt fast
 
 @ul[spaced]
 - naive implementations can be very slow
