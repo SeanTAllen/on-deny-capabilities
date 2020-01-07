@@ -29,9 +29,11 @@ Member of the **Pony** core team
 Perhaps you've heard of erlang.
 Basics:
 
+@ul[spaced]
 - actors "protect a resource"
 - process messages
 - communicate with other actors via messaging
+@ulend
 
 ---
 
