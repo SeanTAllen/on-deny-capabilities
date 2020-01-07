@@ -167,7 +167,7 @@ Some capabilities:
 - tag @note[only identity]
 @ulend
 
----
+note:
 
 I like to map capabilities onto rules that I learned in the 90s when writing lots of multithreaded C++. Those rules helped me keep from segfaulting my code.
 
