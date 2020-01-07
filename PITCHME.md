@@ -134,14 +134,14 @@ What is an alias?
 
 There's no platonic ideal for deny capabilities.
 
-(different languages could provide different capabilities)
-(pony might change some of its capabilities in the future).
+@ul[spaced]
+- Different languages could provide different capabilities
+- Pony might change some of its capabilities in the future
+@ulend
 
 ---
 
-Let's look at some capabilities.
-
-(there are a couple of others)
+Some capabilities:
 
 @ul[spaced]
 - ref @note[plain old mutable)
