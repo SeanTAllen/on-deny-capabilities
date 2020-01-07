@@ -11,6 +11,7 @@ main.pony:4:19: argument not a subtype of parameter
                ^
     main.pony:3:14: String ref is not a subtype of String val:
       ref is not a subcap of val
+
         let msg: String ref = "Hello World!".clone()
                  ^
     main.pony:3:14: String ref is not a subtype of Array[U8 val] val
