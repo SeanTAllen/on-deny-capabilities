@@ -187,7 +187,7 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 - tag
 @snapend
 
-@snap[center span-55]
+@snap[midpoint span-55]
 **Sendable**
 
 - val
