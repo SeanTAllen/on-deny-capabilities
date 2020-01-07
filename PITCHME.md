@@ -4,7 +4,7 @@
 
 ### Sean T. Allen
 
-Member of the _Pony_ core team
+Member of the **Pony** core team
 
 @SeanTAllen
 
