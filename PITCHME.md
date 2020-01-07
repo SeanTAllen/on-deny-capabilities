@@ -48,21 +48,28 @@ Erlang. Akka.
 
 ### Safety
 
-What makes for safety?
-
 note:
 
 actors are great for safety. in particular data-races
 
 ---
 
-### Data race
-
-vs race condition
+### Data race freedom
 
 note:
 
 how many folks know the difference between a data race and a race condition?
+
+---
+
+A data race happens when there are two memory accesses in a program where both:
+
+@ul[spaced]
+- target the same location
+- are performed concurrently by two threads
+- are not reads
+- are not synchronization operations
+@ulend
 
 ---
 
