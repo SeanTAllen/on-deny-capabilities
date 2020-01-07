@@ -2,7 +2,7 @@
 
 ---
 
-#### Sean T. Allen
+### Sean T. Allen
 
 Member of the **Pony** core team
 
@@ -12,14 +12,14 @@ Member of the **Pony** core team
 
 ---
 
-What to expect:
+### What to expect
 
 - Basic introduction to Pony
 - Lots of terminology
 
 ---
 
-#### This is a talk about concurrency.
+### This is a talk about concurrency.
 
 ---
 
