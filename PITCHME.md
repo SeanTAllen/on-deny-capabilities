@@ -173,6 +173,7 @@ statically confirm you aren't doing something unsafe
 @[2, zoom-14](`msg` and `out` are aliases)
 @[3, zoom-14](`x` is an alias)
 @[4, zoom-14](`x` is aliases when passed to `print`)
+@[1-5]()
 @snapend
 
 ---
