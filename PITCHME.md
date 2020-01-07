@@ -195,6 +195,8 @@ I like to map capabilities onto rules that I learned in the 90s when writing lot
 - iso
 @snapend
 
+@[1](Hello)
+@[2](Bye)
 ---
 
 There's no platonic ideal for deny capabilities.
