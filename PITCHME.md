@@ -120,8 +120,7 @@ talk a bit about object capabilities. reference capabilities. deny certain thing
 
 ### Deny capabilities
 
-- safe access to data
-- statically confirm you aren't doing something unsafe.
+statically confirm you aren't doing something unsafe.
 
 ---
 
