@@ -141,10 +141,12 @@ There's no platonic ideal for deny capabilities.
 
 Let's look at some capabilities.
 
-- ref
-- val
-- iso
-- tag
+@ul[spaced]
+- ref @note[plain old mutable)
+- val @note[plain old immutable]
+- iso @note[only 1 alias]
+- tag @note[only identity]
+@ulend
 
 (there are a couple of others)
 
