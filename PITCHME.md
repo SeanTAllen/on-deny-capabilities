@@ -24,6 +24,14 @@ This talk is about **Pony** and **Deny Capabilities**.
 
 ---
 
+### About the paper
+
+note:
+
+talk about capabilities, math. without background this is going to be hard.
+
+---
+
 ### Actor model
 
 note:
@@ -126,7 +134,7 @@ Two memory accesses attempts where both:
 
 note:
 
-we've covered actors. about what makes them safe, and things that can make them slow. let's talk about for a moment about capabilities.
+we've covered actors. about what makes them safe, and things that can make them slow.
 
 ---
 
