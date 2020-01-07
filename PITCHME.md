@@ -2,7 +2,7 @@
 
 ---
 
-### Sean T. Allen
+#### Sean T. Allen
 
 Member of the **Pony** core team
 
