@@ -350,6 +350,7 @@ Pony might change some of its capabilities in the future
 @[2-3, zoom-14](`msg` isn't the correct type)
 @[6-7, zoom-14](`msg` is `String ref`)
 @[9-11, zoom-14](`print` requires `String val` or `Array[U8] val`)
+@[1-1000](We just statically checked data sharing)
 @snapend
 
 ---
