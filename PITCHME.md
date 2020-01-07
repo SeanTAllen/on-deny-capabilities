@@ -119,8 +119,6 @@ The actor model doesn't allow for data races
 
 ---
 
-### Deny capabilities
-
 **Deny capabilities** for **safe**, **fast** actors
 
 ---
